@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de repetitivos do STJ · direito privado</title>
+<meta name="description" content="Precedentes pendentes da 2ª Seção e da Corte Especial do STJ, com o alcance de cada ordem de suspensão e o que mudou desde a última atualização.">
+<meta property="og:title" content="Radar de repetitivos do STJ · direito privado">
+<meta property="og:description" content="Quais temas pendentes suspendem processos no 1º grau e o que mudou no STJ.">
+<link rel="alternate" type="application/rss+xml" title="Mudanças no radar" href="feed.xml">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%23E8590C' stroke-width='3'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23E8590C'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#fbfaf8;--panel:#ffffff;--fg:#1c1917;--muted:#6b645d;--line:#e7e2dc;--soft:#f4f1ed;
+  --accent:#E8590C;--accent-text:#B4470A;--accent-soft:#fdeee4;
+  --g-susp:#E8590C;--g-conf:#CA8A04;--g-julg:#15803D;--g-resp:#4F6BED;--g-sem:#a8a29e;--g-class:#7C3AED;
+  --ok:#15803D;--warn:#A16207;--bad:#B91C1C;
+  --radius:10px;--shadow:0 1px 2px rgb(0 0 0/.06),0 8px 24px rgb(0 0 0/.06);
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#141210;--panel:#1d1a17;--fg:#f3efea;--muted:#a89f96;--line:#35302b;--soft:#26221e;
+  --accent-text:#FF9A5C;--accent-soft:#3a2215;--g-sem:#6b645d;--ok:#4ADE80;--warn:#FACC15;--bad:#F87171;
+  --shadow:0 1px 2px rgb(0 0 0/.4),0 8px 24px rgb(0 0 0/.3);
+}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent-text)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding:28px clamp(16px,4vw,40px) 64px;display:grid;gap:28px}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:16px;background:var(--panel);padding:8px 12px;z-index:9}
+header{display:grid;gap:6px;border-bottom:1px solid var(--line);padding-bottom:20px}
+.kicker{margin:0;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);font-weight:600}
+h1{margin:0;font:400 clamp(1.8rem,3.6vw,2.6rem)/1.12 var(--serif)}
+.take{margin:4px 0 0;font-size:1.08rem;max-width:62rem}
+.take b{color:var(--accent-text);font-variant-numeric:tabular-nums}
+.fresh{display:flex;flex-wrap:wrap;gap:6px 18px;margin:6px 0 0;font-size:.86rem;color:var(--muted)}
+.fresh span::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--ok);margin-right:6px;vertical-align:1px}
+.fresh .stale::before{background:var(--warn)}
+.alert{margin:8px 0 0;padding:10px 14px;border-radius:var(--radius);border:1px solid var(--warn);background:color-mix(in srgb,var(--warn) 10%,transparent);font-size:.9rem}
+.notice{margin:6px 0 0;font-size:.86rem;color:var(--muted)}
+nav.tabs{display:flex;gap:4px;flex-wrap:wrap;padding:4px;background:var(--panel);border:1px solid var(--line);border-radius:999px;width:fit-content;max-width:100%;position:sticky;top:10px;z-index:5;box-shadow:var(--shadow)}
+.tab{font:inherit;font-size:.95rem;border:0;background:transparent;color:var(--muted);padding:7px 16px;border-radius:999px;cursor:pointer}
+.tab:hover{color:var(--fg)}
+.tab[aria-selected=true]{background:var(--accent);color:#fff}
+.tab .badge{display:inline-block;min-width:1.4em;margin-left:6px;padding:0 6px;border-radius:999px;background:var(--accent-soft);color:var(--accent-text);font-size:.75rem;font-weight:600}
+.tab .badge:empty{display:none}
+.side .detail{border:0;padding:0}
+.tab[aria-selected=true] .badge{background:rgb(255 255 255/.25);color:#fff}
+section[hidden]{display:none}
+.page{display:grid;gap:24px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:12px}
+.kpi{all:unset;cursor:pointer;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;display:grid;gap:4px;position:relative;overflow:hidden;transition:transform .15s,box-shadow .15s}
+.kpi:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.kpi:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.kpi.main{border-color:var(--accent)}.kpi.main::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--accent)}
+.kpi .l{font-size:.82rem;color:var(--muted)}
+.kpi .n{font:400 2.4rem/1 var(--serif);font-variant-numeric:tabular-nums}
+.kpi.main .n{color:var(--accent-text)}
+.kpi .s{font-size:.8rem;color:var(--muted)}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;display:grid;gap:14px;min-width:0}
+.box h2{margin:0;font-size:1.12rem;font-weight:600}
+.box .note{margin:-8px 0 0;font-size:.86rem;color:var(--muted)}
+.row2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:16px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,280px),1fr));gap:12px}
+.card{border:1px solid var(--line);border-top:3px solid var(--g-susp);border-radius:var(--radius);padding:14px;display:grid;gap:6px;align-content:start;background:var(--bg)}
+.card.conf{border-top-color:var(--g-conf)}.card.class{border-top-color:var(--g-class)}
+.card .top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.card .id{font:400 1.3rem/1.1 var(--serif)}
+.card .mat{font-weight:600;line-height:1.3}
+.card .meta,.card .obs{font-size:.84rem;color:var(--muted);line-height:1.4}
+.card .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;padding:2px 9px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+.dot{display:inline-block;width:.62rem;height:.62rem;border-radius:3px;flex:none}
+.stripe{background-image:repeating-linear-gradient(135deg,rgb(255 255 255/.45) 0 3px,transparent 3px 7px)}
+.btn{font:inherit;font-size:.85rem;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--fg);cursor:pointer;text-decoration:none;display:inline-flex;gap:6px;align-items:center}
+.btn:hover{border-color:var(--accent);color:var(--accent-text)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{filter:brightness(.95);color:#fff}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.82rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.bars{display:grid;gap:10px}
+.bar{display:grid;grid-template-columns:minmax(120px,190px) 1fr 2.5em;gap:10px;align-items:center;font-size:.88rem}
+.bar .track{display:flex;height:26px;border-radius:6px;overflow:hidden;background:var(--soft)}
+.seg{all:unset;cursor:pointer;height:100%;display:flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:700;min-width:4px;transition:filter .15s}
+.seg:hover{filter:brightness(1.1)}.seg:focus-visible{outline:2px solid var(--fg);outline-offset:-2px}
+.bar .tot{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+.changes{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.changes li{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.changes li:last-child{border-bottom:0}
+.changes .t{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:2px 8px;border-radius:6px;height:fit-content;background:var(--soft);color:var(--muted)}
+.changes .t.novo{background:var(--accent-soft);color:var(--accent-text)}
+.changes .t.saiu{background:color-mix(in srgb,var(--ok) 15%,transparent);color:var(--ok)}
+.changes .t.suspensao,.changes .t.alcance{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.changes .what{display:grid;gap:2px}
+.changes .what b{font-weight:600}
+.changes .what a{font-weight:600;text-decoration:none}
+.changes .d{font-size:.8rem;color:var(--muted)}
+.tools{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.search{font:inherit;flex:1 1 240px;min-width:0;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+select{font:inherit;font-size:.9rem;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--panel);color:var(--fg)}
+.count{font-size:.85rem;color:var(--muted);font-variant-numeric:tabular-nums}
+.split{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:1001px){.split{grid-template-columns:minmax(0,1fr) 380px}.side{position:sticky;top:70px;align-self:start;max-height:calc(100vh - 90px);overflow:auto}}
+.tablebox{max-height:72vh;overflow:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--panel)}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;border-bottom:1px solid var(--line);padding:0;z-index:1}
+th button{all:unset;cursor:pointer;display:block;padding:10px 12px;color:var(--muted);white-space:nowrap}
+th button:hover{color:var(--fg)}th button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+th[aria-sort=ascending] button::after{content:" ↑";color:var(--accent-text)}
+th[aria-sort=descending] button::after{content:" ↓";color:var(--accent-text)}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.4}
+tbody tr{cursor:pointer}
+tbody tr:hover td,tbody tr.sel td{background:var(--accent-soft)}
+tbody tr.sel td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+td.k{font-weight:700;white-space:nowrap}
+.empty{text-align:center;padding:28px;color:var(--muted)}
+.empty .btn{margin-top:10px}
+@media (max-width:760px){.hide-sm{display:none}}
+.side,.detail{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.detail{display:grid;gap:12px}
+.detail .id{font:400 1.7rem/1.1 var(--serif);margin:0}
+.detail .mat{margin:0;font-weight:600}
+.detail dl{margin:0;display:grid;gap:10px}
+.detail dt{font-size:.74rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.detail dd{margin:2px 0 0;font-size:.9rem;line-height:1.5}
+.detail .prov{border-left:3px solid var(--accent);padding-left:10px}
+.detail .acts{display:flex;gap:8px;flex-wrap:wrap}
+.warnline{padding:8px 12px;border-radius:8px;background:color-mix(in srgb,var(--warn) 14%,transparent);font-size:.86rem}
+.hint{color:var(--muted);font-size:.9rem;margin:0}
+dialog{border:0;padding:0;background:transparent;max-width:100%;width:100%;margin:auto 0 0;max-height:88vh}
+dialog::backdrop{background:rgb(0 0 0/.45)}
+dialog .detail{border-radius:16px 16px 0 0;max-height:88vh;overflow:auto;padding-top:14px}
+dialog .close{justify-self:end}
+.method{max-width:70rem}
+.method h2{font-size:1.15rem;margin:18px 0 6px}
+.method p,.method li{line-height:1.6}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 16px;border-radius:999px;font-size:.9rem;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+footer{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;display:grid;gap:4px}
+.sk{background:linear-gradient(90deg,var(--soft),var(--line),var(--soft));background-size:200% 100%;border-radius:8px;min-height:1.2em}
+@media (prefers-reduced-motion:no-preference){.sk{animation:sh 1.2s infinite}@keyframes sh{to{background-position:-200% 0}}}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<div class="wrap">
+  <header>
+    <p class="kicker">STJ · Precedentes qualificados · Direito privado</p>
+    <h1>Radar de repetitivos do STJ</h1>
+    <p class="take" id="take"><span class="sk" style="display:block;width:60%"></span></p>
+    <p class="fresh" id="fresh"></p>
+    <div id="alert"></div>
+    <p class="notice">Triagem para conferência, não é decisão: antes de sobrestar ou aplicar uma tese, confira a página do tema no STJ.</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Seções">
+    <button class="tab" role="tab" data-tab="visao" aria-selected="true">Visão geral</button>
+    <button class="tab" role="tab" data-tab="radar" aria-selected="false">Radar completo</button>
+    <button class="tab" role="tab" data-tab="mudancas" aria-selected="false">O que mudou <span class="badge" id="badge-mud"></span></button>
+    <button class="tab" role="tab" data-tab="metodo" aria-selected="false">Método</button>
+  </nav>
+
+  <main id="conteudo">
+    <section class="page" data-page="visao" id="visao">
+      <div class="kpis" id="kpis"></div>
+      <div class="box" id="recentes-box">
+        <h2>O que mudou recentemente</h2>
+        <p class="note">Entradas, saídas e mudanças de situação ou de suspensão desde a última atualização.</p>
+        <ul class="changes" id="recentes"></ul>
+        <div><button class="btn" type="button" data-go="mudancas">Ver todo o histórico</button></div>
+      </div>
+      <div class="box">
+        <h2>Suspendem processos no 1º grau</h2>
+        <p class="note">Ordens que alcançam todos os processos pendentes, mais os casos a conferir e os ainda não classificados.</p>
+        <div class="cards" id="cards"></div>
+      </div>
+      <div class="box">
+        <h2>Onde estão os pendentes</h2>
+        <p class="note">Precedentes por área, separados pelo alcance da suspensão. Clique numa faixa para ver a lista.</p>
+        <div class="legend" id="legend"></div>
+        <div class="bars" id="bars"></div>
+      </div>
+    </section>
+
+    <section class="page" data-page="radar" id="radar" hidden>
+      <div class="tools">
+        <input class="search" id="q" type="search" placeholder="Buscar tema, matéria ou texto do STJ" aria-label="Buscar no radar">
+        <select id="f-grupo" aria-label="Alcance da suspensão"></select>
+        <select id="f-area" aria-label="Área"></select>
+        <select id="f-orgao" aria-label="Órgão julgador"></select>
+        <button class="btn" type="button" id="limpar">Limpar filtros</button>
+        <span class="count" id="count" aria-live="polite"></span>
+      </div>
+      <div class="split">
+        <div class="tablebox">
+          <table>
+            <thead><tr>
+              <th data-k="numero" aria-sort="none"><button type="button">Precedente</button></th>
+              <th data-k="materia" aria-sort="none"><button type="button">Matéria</button></th>
+              <th data-k="grupo" aria-sort="none"><button type="button">Alcance da suspensão</button></th>
+              <th class="hide-sm" data-k="area" aria-sort="none"><button type="button">Área</button></th>
+              <th class="hide-sm" data-k="situacao" aria-sort="none"><button type="button">Situação</button></th>
+            </tr></thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+        <aside class="side" id="side" aria-live="polite"><p class="hint">Escolha um precedente na lista para ver a questão submetida, a ordem de suspensão e o link para a página do STJ.</p></aside>
+      </div>
+    </section>
+
+    <section class="page" data-page="mudancas" id="mudancas" hidden>
+      <div class="box">
+        <h2>Histórico de mudanças</h2>
+        <p class="note">Gerado a cada atualização da base de dados abertos do STJ. Para receber as mudanças, assine o <a href="feed.xml">feed RSS</a> ou acompanhe o repositório no GitHub (Watch).</p>
+        <div class="tools"><select id="f-tipo" aria-label="Tipo de mudança"></select></div>
+        <ul class="changes" id="historico"></ul>
+      </div>
+    </section>
+
+    <section class="page method" data-page="metodo" id="metodo" hidden>
+      <div class="box">
+        <h2>Fonte e recorte</h2>
+        <p>Portal de Dados Abertos do STJ, conjunto "Precedentes qualificados" (arquivos Temas e Processos, licença CC BY). Entram os precedentes da 2ª Seção e da Corte Especial ainda pendentes: afetados, em julgamento, sobrestados, com mérito julgado e acórdão ainda não publicado, controvérsias pendentes e relevância de questão federal reconhecida (ProRQF).</p>
+        <h2>Como o alcance da suspensão é classificado</h2>
+        <p>A ordem de suspensão vem em texto livre no campo "informações complementares" do STJ. Cada ordem foi lida no texto integral, uma por vez. Um filtro automático por palavras erra em vários casos, por isso a leitura é manual.</p>
+        <ul>
+          <li><b>Suspende o 1º grau:</b> a ordem alcança todos os processos pendentes, individuais ou coletivos.</li>
+          <li><b>A conferir:</b> o texto não deixa claro se alcança o 1º grau.</li>
+          <li><b>Já julgado:</b> mérito decidido; aplicar a tese depois de conferir a publicação do acórdão.</li>
+          <li><b>Só REsp/AREsp:</b> a ordem atinge só recursos especiais e agravos no 2º grau e no STJ; o 1º grau julga normalmente.</li>
+          <li><b>Sem suspensão ou sem ordem:</b> o STJ afastou a suspensão, a base não traz ordem ou é controvérsia ainda não afetada.</li>
+          <li><b>A classificar:</b> precedente novo, ou cuja ordem mudou desde a última leitura. Fica assim até nova conferência.</li>
+        </ul>
+        <h2>Atualização</h2>
+        <p>Um robô consulta a base do STJ todos os dias, compara com a versão anterior e publica as mudanças nesta página e no feed. A classificação é revisada por pessoa antes de mudar.</p>
+        <h2>Limites</h2>
+        <ul>
+          <li>A base do STJ é atualizada pelo próprio tribunal, sem periodicidade informada; a data aparece no topo desta página.</li>
+          <li>Esta página não substitui a consulta ao STJ nem o acórdão de afetação. Cada precedente tem o link para a página oficial.</li>
+          <li>Recorte de direito privado: temas da 1ª e da 3ª Seção não entram.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Dados: Superior Tribunal de Justiça, Portal de Dados Abertos (CC BY 4.0). Classificação do alcance das suspensões: leitura humana, com apoio de IA, sujeita a revisão.</span>
+    <span><a href="https://github.com/fbmoulin/radar-repetitivos-stj">Código e histórico no GitHub</a> · <a href="feed.xml">Feed RSS</a></span>
+  </footer>
+</div>
+
+<dialog id="dlg" aria-label="Detalhe do precedente"></dialog>
+<div class="toast" id="toast" role="status"></div>
+<noscript><p style="padding:16px">Esta página precisa de JavaScript para mostrar os dados. Os arquivos estão em <a href="data/precedentes.json">data/precedentes.json</a>.</p></noscript>
+
+<script>
+(() => {
+  'use strict';
+  const GRUPOS = ['Suspende o 1º grau', 'A conferir', 'A classificar', 'Já julgado', 'Só REsp/AREsp', 'Sem suspensão ou sem ordem'];
+  const COR = {
+    'Suspende o 1º grau': ['var(--g-susp)', '#fff', false],
+    'A conferir': ['var(--g-conf)', '#1c1917', true],
+    'A classificar': ['var(--g-class)', '#fff', true],
+    'Já julgado': ['var(--g-julg)', '#fff', false],
+    'Só REsp/AREsp': ['var(--g-resp)', '#fff', false],
+    'Sem suspensão ou sem ordem': ['var(--g-sem)', '#1c1917', false]
+  };
+  const TIPOS = { novo: 'Novo', saiu: 'Saiu', situacao: 'Situação', suspensao: 'Suspensão', alcance: 'Alcance', base: 'Base' };
+  const TABS = ['visao', 'radar', 'mudancas', 'metodo'];
+  const $ = (s) => document.querySelector(s);
+  const nf = new Intl.NumberFormat('pt-BR');
+  const norm = (s) => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const data = (iso) => { if (!iso) return ''; const d = new Date(iso.length === 10 ? iso + 'T12:00:00Z' : iso); return isNaN(d) ? iso : d.toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo' }); };
+  const narrow = window.matchMedia('(max-width: 1000px)');
+
+  function h(tag, attrs, ...kids) {
+    const el = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs || {})) {
+      if (v == null || v === false) continue;
+      if (k === 'class') el.className = v;
+      else if (k === 'style') el.style.cssText = v;
+      else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+      else el.setAttribute(k, v === true ? '' : v);
+    }
+    for (const kid of kids.flat()) if (kid != null && kid !== false) el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+    return el;
+  }
+  const dot = (g) => { const [bg, , st] = COR[g] || COR['Sem suspensão ou sem ordem']; return h('i', { class: 'dot' + (st ? ' stripe' : ''), style: `background-color:${bg}` }); };
+
+  // ── estado na URL ────────────────────────────────────────────────
+  const DEF = { tab: 'visao', q: '', grupo: '', area: '', orgao: '', sel: '', sort: '', dir: 'asc', tipo: '' };
+  let S = { ...DEF };
+  function lerHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    S = { ...DEF };
+    for (const k of Object.keys(DEF)) if (p.has(k)) S[k] = p.get(k);
+    if (!TABS.includes(S.tab)) S.tab = S.sel ? 'radar' : 'visao';
+  }
+  function set(patch, push) {
+    Object.assign(S, patch);
+    const p = new URLSearchParams();
+    for (const [k, v] of Object.entries(S)) if (v && v !== DEF[k]) p.set(k, v);
+    const url = location.pathname + location.search + (p.toString() ? '#' + p.toString() : '');
+    history[push ? 'pushState' : 'replaceState'](null, '', url);
+    render();
+  }
+
+  let P = [], M = [], META = {};
+
+  function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('on'), 1800); }
+  function link(id) { const p = new URLSearchParams({ tab: 'radar', sel: id }); return location.origin + location.pathname + '#' + p.toString(); }
+
+  // ── cabeçalho ────────────────────────────────────────────────────
+  function cabecalho() {
+    const c = (META.contagens || {}).por_grupo || {};
+    const tot = P.length, s1 = c['Suspende o 1º grau'] || 0;
+    $('#take').replaceChildren('Dos ', h('b', null, nf.format(tot)), ' precedentes pendentes na 2ª Seção e na Corte Especial, ', h('b', null, nf.format(s1)), ' suspendem processos no 1º grau. Nos demais, o juízo decide normalmente e acompanha a tese.');
+    const t = META.ultima_tentativa || {};
+    const dias = META.atualizado_em ? Math.floor((Date.now() - new Date(META.atualizado_em)) / 864e5) : null;
+    $('#fresh').replaceChildren(
+      h('span', { class: dias != null && dias > 10 ? 'stale' : '' }, 'Publicado em ' + data(META.atualizado_em)),
+      META.base_stj ? h('span', null, 'Base do STJ de ' + data(META.base_stj)) : null,
+      META.classificacao_conferida_em ? h('span', null, 'Classificação conferida em ' + data(META.classificacao_conferida_em)) : null,
+      t.em ? h('span', { class: t.status === 'ok' ? '' : 'stale' }, 'Última verificação em ' + data(t.em)) : null
+    );
+    $('#alert').replaceChildren(t.status && t.status !== 'ok'
+      ? h('p', { class: 'alert', role: 'status' }, 'A última verificação da base do STJ não concluiu (' + (t.status === 'bloqueado' ? 'portal inacessível' : 'dados recusados') + '). Os dados abaixo são da publicação anterior.')
+      : '');
+    const novas = M.filter((m) => m.data === META.atualizado_em && m.tipo !== 'base').length;
+    $('#badge-mud').textContent = novas ? nf.format(novas) : '';
+  }
+
+  // ── visão geral ──────────────────────────────────────────────────
+  function visao() {
+    const c = (META.contagens || {}).por_grupo || {};
+    const kpi = (label, n, sub, grupo, main) => h('button', { class: 'kpi' + (main ? ' main' : ''), type: 'button', onclick: () => set({ tab: 'radar', grupo, sel: '', q: '', area: '', orgao: '' }, true), 'aria-label': `${label}: ${n}. Ver na lista` },
+      h('span', { class: 'l' }, label), h('span', { class: 'n' }, nf.format(n)), h('span', { class: 's' }, sub));
+    $('#kpis').replaceChildren(
+      kpi('Suspendem o 1º grau', c['Suspende o 1º grau'] || 0, 'Sobrestar os casos iguais', 'Suspende o 1º grau', true),
+      kpi('A conferir ou a classificar', (c['A conferir'] || 0) + (c['A classificar'] || 0), 'Ler a ordem antes de sobrestar', (c['A classificar'] ? 'A classificar' : 'A conferir')),
+      kpi('Já julgados', c['Já julgado'] || 0, 'Aplicar a tese', 'Já julgado'),
+      kpi('Só REsp/AREsp', c['Só REsp/AREsp'] || 0, 'O 1º grau julga normalmente', 'Só REsp/AREsp'),
+      kpi('Pendentes no total', P.length, '2ª Seção e Corte Especial', '')
+    );
+    $('#recentes').replaceChildren(...listaMudancas(M.slice(0, 6)));
+
+    const destaque = P.filter((p) => ['Suspende o 1º grau', 'A conferir', 'A classificar'].includes(p.grupo))
+      .sort((a, b) => GRUPOS.indexOf(a.grupo) - GRUPOS.indexOf(b.grupo) || (b.numero - a.numero));
+    $('#cards').replaceChildren(...destaque.map((p) => h('article', { class: 'card' + (p.grupo === 'A conferir' ? ' conf' : p.grupo === 'A classificar' ? ' class' : '') },
+      h('div', { class: 'top' }, h('span', { class: 'id' }, p.id), h('span', { class: 'pill' }, dot(p.grupo), p.grupo)),
+      h('span', { class: 'mat' }, p.materia),
+      h('span', { class: 'meta' }, [p.orgao, p.situacao].join(' · ')),
+      p.observacoes ? h('span', { class: 'obs' }, p.observacoes) : null,
+      h('div', { class: 'acts' },
+        h('button', { class: 'btn', type: 'button', onclick: () => set({ tab: 'radar', sel: p.id, q: '', grupo: '', area: '', orgao: '' }, true) }, 'Ver detalhe'),
+        h('a', { class: 'btn', href: p.link_stj, target: '_blank', rel: 'noopener' }, 'Página no STJ ↗'))
+    )));
+
+    $('#legend').replaceChildren(...GRUPOS.filter((g) => c[g]).map((g) => h('span', null, dot(g), g)));
+    const areas = [...new Set(P.map((p) => p.area))];
+    const tot = (a) => P.filter((p) => p.area === a).length;
+    areas.sort((a, b) => tot(b) - tot(a));
+    const max = Math.max(1, ...areas.map(tot));
+    $('#bars').replaceChildren(...areas.map((a) => h('div', { class: 'bar' },
+      h('span', null, a),
+      h('div', { class: 'track', style: `width:${Math.max(8, 100 * tot(a) / max)}%` }, ...GRUPOS.map((g) => {
+        const n = P.filter((p) => p.area === a && p.grupo === g).length;
+        if (!n) return null;
+        const [bg, fg, st] = COR[g];
+        return h('button', { class: 'seg' + (st ? ' stripe' : ''), type: 'button', style: `flex:${n};background-color:${bg};color:${fg}`, title: `${a} · ${g}: ${n}`, 'aria-label': `${a}, ${g}: ${n}. Ver na lista`, onclick: () => set({ tab: 'radar', area: a, grupo: g, sel: '', q: '', orgao: '' }, true) }, 100 * n / tot(a) >= 9 ? nf.format(n) : '');
+      })),
+      h('span', { class: 'tot' }, nf.format(tot(a)))
+    )));
+  }
+
+  function listaMudancas(lista) {
+    if (!lista.length) return [h('li', null, h('span', { class: 't' }, '—'), h('span', { class: 'd' }, 'Nenhuma mudança registrada ainda.'))];
+    return lista.map((m) => {
+      const temP = P.some((p) => p.id === m.id);
+      return h('li', null,
+        h('span', { class: 't ' + m.tipo }, TIPOS[m.tipo] || m.tipo),
+        h('div', { class: 'what' },
+          h('div', null, temP ? h('a', { href: '#' + new URLSearchParams({ tab: 'radar', sel: m.id }), onclick: (e) => { e.preventDefault(); set({ tab: 'radar', sel: m.id, q: '', grupo: '', area: '', orgao: '' }, true); } }, m.id) : h('b', null, m.id), ' · ', m.materia),
+          h('span', null, m.texto),
+          h('span', { class: 'd' }, data(m.data))));
+    });
+  }
+
+  // ── radar ────────────────────────────────────────────────────────
+  function filtrados() {
+    const q = norm(S.q);
+    return P.filter((p) => (!S.grupo || p.grupo === S.grupo) && (!S.area || p.area === S.area) && (!S.orgao || p.orgao === S.orgao) &&
+      (!q || norm([p.id, p.materia, p.questao, p.observacoes, p.ordem_suspensao, p.area, p.tese].join(' ')).includes(q)));
+  }
+  function ordenados(rows) {
+    const dir = S.dir === 'desc' ? -1 : 1;
+    const base = (a, b) => GRUPOS.indexOf(a.grupo) - GRUPOS.indexOf(b.grupo) || (b.numero - a.numero);
+    const cmp = { numero: (a, b) => a.tipo.localeCompare(b.tipo) || a.numero - b.numero, grupo: (a, b) => GRUPOS.indexOf(a.grupo) - GRUPOS.indexOf(b.grupo) }[S.sort]
+      || (S.sort ? (a, b) => String(a[S.sort]).localeCompare(String(b[S.sort]), 'pt') : null);
+    return [...rows].sort((a, b) => cmp ? (dir * cmp(a, b) || base(a, b)) : base(a, b));
+  }
+  function opcoes(sel, label, vals, atual) {
+    sel.replaceChildren(new Option(label, ''), ...vals.map((v) => new Option(v, v)));
+    sel.value = vals.includes(atual) ? atual : '';
+  }
+  function radar() {
+    const q = $('#q'); if (q !== document.activeElement) q.value = S.q;
+    opcoes($('#f-grupo'), 'Todo alcance', GRUPOS.filter((g) => P.some((p) => p.grupo === g)), S.grupo);
+    opcoes($('#f-area'), 'Todas as áreas', [...new Set(P.map((p) => p.area))].sort((a, b) => a.localeCompare(b, 'pt')), S.area);
+    opcoes($('#f-orgao'), 'Todos os órgãos', [...new Set(P.map((p) => p.orgao))].sort(), S.orgao);
+    document.querySelectorAll('th[data-k]').forEach((th) => th.setAttribute('aria-sort', S.sort === th.dataset.k ? (S.dir === 'desc' ? 'descending' : 'ascending') : 'none'));
+    const rows = ordenados(filtrados());
+    $('#count').textContent = `${nf.format(rows.length)} de ${nf.format(P.length)} precedentes`;
+    if (!rows.length) {
+      $('#tbody').replaceChildren(h('tr', null, h('td', { class: 'empty', colspan: 5 }, 'Nenhum precedente com esses filtros.', h('br'), h('button', { class: 'btn', type: 'button', onclick: limpar }, 'Limpar filtros'))));
+    } else {
+      $('#tbody').replaceChildren(...rows.map((p) => h('tr', { class: p.id === S.sel ? 'sel' : '', tabindex: 0, 'data-id': p.id, 'aria-selected': String(p.id === S.sel) },
+        h('td', { class: 'k' }, p.id),
+        h('td', null, p.materia),
+        h('td', null, h('span', { class: 'pill' }, dot(p.grupo), p.grupo)),
+        h('td', { class: 'hide-sm' }, p.area),
+        h('td', { class: 'hide-sm' }, p.situacao))));
+    }
+    detalhe();
+  }
+  function detalheEl(p) {
+    const meta = [p.orgao, p.situacao, p.primeira_afetacao ? '1ª afetação em ' + data(p.primeira_afetacao) : '', p.processo_paradigma].filter(Boolean).join(' · ');
+    const item = (t, v, cls) => v ? [h('dt', null, t), h('dd', { class: cls || null }, v)] : [];
+    return h('div', { class: 'detail' },
+      h('p', { class: 'id' }, p.id),
+      h('p', { class: 'mat' }, p.materia),
+      h('span', { class: 'pill', style: 'width:fit-content' }, dot(p.grupo), p.alcance),
+      p.reclassificar ? h('p', { class: 'warnline' }, 'A ordem de suspensão mudou desde a última conferência: a classificação será revista.') : null,
+      h('div', { class: 'acts' },
+        h('a', { class: 'btn primary', href: p.link_stj, target: '_blank', rel: 'noopener' }, 'Página no STJ ↗'),
+        h('button', { class: 'btn', type: 'button', onclick: () => navigator.clipboard?.writeText(link(p.id)).then(() => toast('Link copiado'), () => toast('Não foi possível copiar')) }, 'Copiar link')),
+      h('dl', null,
+        ...item('Providência', p.providencia, 'prov'),
+        ...item('Observações', p.observacoes),
+        ...item('Órgão · situação', meta),
+        ...item('Questão submetida a julgamento', p.questao),
+        ...item('Ordem de suspensão (texto do STJ)', p.ordem_suspensao || 'Sem texto de suspensão na base.'),
+        ...item('Tese firmada', p.tese && !p.tese.startsWith('*') ? p.tese : ''),
+        ...item('Classificação conferida em', data(p.conferido_em))));
+  }
+  function detalhe() {
+    const p = P.find((x) => x.id === S.sel);
+    const dlg = $('#dlg');
+    if (!p) {
+      $('#side').replaceChildren(h('p', { class: 'hint' }, 'Escolha um precedente na lista para ver a questão submetida, a ordem de suspensão e o link para a página do STJ.'));
+      if (dlg.open) dlg.close();
+      return;
+    }
+    if (narrow.matches && S.tab === 'radar') {
+      const el = detalheEl(p);
+      el.prepend(h('button', { class: 'btn close', type: 'button', onclick: () => set({ sel: '' }), 'aria-label': 'Fechar' }, 'Fechar ✕'));
+      dlg.replaceChildren(el);
+      if (!dlg.open) dlg.showModal();
+      $('#side').replaceChildren();
+    } else {
+      if (dlg.open) dlg.close();
+      $('#side').replaceChildren(detalheEl(p));
+    }
+  }
+  function limpar() { set({ q: '', grupo: '', area: '', orgao: '', sel: '' }); }
+
+  function historico() {
+    const tipos = [...new Set(M.map((m) => m.tipo))];
+    opcoes($('#f-tipo'), 'Todas as mudanças', tipos.map((t) => TIPOS[t] || t), TIPOS[S.tipo] || '');
+    const lista = S.tipo ? M.filter((m) => (TIPOS[m.tipo] || m.tipo) === TIPOS[S.tipo]) : M;
+    $('#historico').replaceChildren(...listaMudancas(lista));
+  }
+
+  function render() {
+    document.querySelectorAll('[data-page]').forEach((s) => { s.hidden = s.dataset.page !== S.tab; });
+    document.querySelectorAll('.tab').forEach((b) => { const on = b.dataset.tab === S.tab; b.setAttribute('aria-selected', String(on)); b.tabIndex = on ? 0 : -1; });
+    if (!P.length) return;
+    cabecalho();
+    if (S.tab === 'visao') visao();
+    if (S.tab === 'radar') radar(); else if ($('#dlg').open) $('#dlg').close();
+    if (S.tab === 'mudancas') historico();
+  }
+
+  // ── eventos ──────────────────────────────────────────────────────
+  document.querySelectorAll('.tab').forEach((b) => b.addEventListener('click', () => set({ tab: b.dataset.tab }, true)));
+  $('.tabs').addEventListener('keydown', (e) => {
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    const i = TABS.indexOf(S.tab), n = TABS[(i + (e.key === 'ArrowRight' ? 1 : TABS.length - 1)) % TABS.length];
+    set({ tab: n }, true); document.querySelector(`.tab[data-tab="${n}"]`).focus();
+  });
+  document.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => set({ tab: b.dataset.go }, true)));
+  $('#q').addEventListener('input', (e) => set({ q: e.target.value, sel: '' }));
+  $('#f-grupo').addEventListener('change', (e) => set({ grupo: e.target.value, sel: '' }));
+  $('#f-area').addEventListener('change', (e) => set({ area: e.target.value, sel: '' }));
+  $('#f-orgao').addEventListener('change', (e) => set({ orgao: e.target.value, sel: '' }));
+  $('#f-tipo').addEventListener('change', (e) => { const k = Object.keys(TIPOS).find((t) => TIPOS[t] === e.target.value) || ''; set({ tipo: k }); });
+  $('#limpar').addEventListener('click', limpar);
+  document.querySelectorAll('th[data-k] button').forEach((b) => b.addEventListener('click', () => {
+    const k = b.parentElement.dataset.k; set({ sort: k, dir: S.sort === k && S.dir === 'asc' ? 'desc' : 'asc' });
+  }));
+  $('#tbody').addEventListener('click', (e) => { const tr = e.target.closest('tr[data-id]'); if (tr) set({ sel: tr.dataset.id }); });
+  $('#tbody').addEventListener('keydown', (e) => { if (e.key !== 'Enter' && e.key !== ' ') return; const tr = e.target.closest('tr[data-id]'); if (tr) { e.preventDefault(); set({ sel: tr.dataset.id }); } });
+  $('#dlg').addEventListener('close', () => { if (S.sel && narrow.matches) set({ sel: '' }); });
+  $('#dlg').addEventListener('click', (e) => { if (e.target === e.currentTarget) e.currentTarget.close(); });
+  window.addEventListener('popstate', () => { lerHash(); render(); });
+  window.addEventListener('hashchange', () => { lerHash(); render(); });
+  narrow.addEventListener('change', () => detalhe());
+
+  lerHash();
+  render();
+  const get = (u) => fetch(u, { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(u); return r.json(); });
+  Promise.all([get('data/precedentes.json'), get('data/mudancas.json'), get('data/meta.json')])
+    .then(([p, m, meta]) => { P = p; M = m; META = meta; render(); })
+    .catch(() => { $('#take').replaceChildren('Não foi possível carregar os dados agora. Tente recarregar a página.'); });
+})();
+</script>
+</body>
+</html>

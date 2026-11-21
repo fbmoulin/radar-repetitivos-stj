@@ -1,0 +1,78 @@
+name: Atualizar e publicar
+
+on:
+  schedule:
+    - cron: "17 9 * * *" # 06h17 em Brasília, todos os dias
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest
+      - run: python -m pytest tests -q
+
+  atualizar:
+    # Só no agendamento ou no disparo manual. O portal do STJ pode recusar IPs
+    # de fora do Brasil (os runners do GitHub ficam nos EUA): nesse caso o script
+    # registra "bloqueado" em data/meta.json e a atualização fica com a tarefa
+    # diária do Mac (scripts/atualizar.py --baixar, com IP brasileiro).
+    if: github.event_name != 'push'
+    needs: testes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Baixar e comparar
+        run: python scripts/atualizar.py --baixar --origem "GitHub Actions" || [ $? -eq 3 ]
+      - name: Gravar mudanças
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data feed.xml
+          if git diff --cached --quiet; then
+            echo "Sem mudanças."
+          else
+            git commit -m "dados: atualização automática $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  pages:
+    needs: [testes, atualizar]
+    if: ${{ always() && needs.testes.result == 'success' && needs.atualizar.result != 'failure' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Montar o site
+        run: |
+          mkdir _site
+          cp index.html feed.xml _site/
+          cp -r data _site/data
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

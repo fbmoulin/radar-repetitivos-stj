@@ -1,0 +1,554 @@
+{
+ "Controvérsia 493": {
+  "materia": "Competência do JEC: qualidade da água (IRDR TJMG)",
+  "area": "Processo civil",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Controvérsia 651": {
+  "materia": "Bancário: CDI como índice de correção",
+  "area": "Bancário e consumo",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Controvérsia 672": {
+  "materia": "Consignado: Tema 1.061 x depósito do valor na conta",
+  "area": "Bancário e consumo",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "Se afetada, pode interferir nas ações de inexistência de contratação.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Controvérsia 676": {
+  "materia": "Alienação fiduciária: notificação da mora por e-mail",
+  "area": "Bancário e consumo",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "Relevante para as buscas e apreensões do DL 911/69.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Controvérsia 710": {
+  "materia": "Bancário: dever de monitorar perfil de operações (fraude)",
+  "area": "Bancário e consumo",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "Relevante para ações de golpe/fraude bancária.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "ec3320e812853d1fc9750760f1c7a6a0e7afeef1"
+ },
+ "Controvérsia 716": {
+  "materia": "Impenhorabilidade da poupança de pessoa jurídica",
+  "area": "Execução e coletivas",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Controvérsia 739": {
+  "materia": "Prescrição (art. 27 CDC) em descontos de trato sucessivo",
+  "area": "Bancário e consumo",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Controvérsia 798": {
+  "materia": "Aluguel por uso exclusivo do imóvel comum por ex-cônjuge",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "80038408c067b6b105c9e7fda14f9a015c5f8e99"
+ },
+ "Controvérsia 809": {
+  "materia": "Plano de saúde: terapia multidisciplinar/ABA para TEA",
+  "area": "Saúde suplementar",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "Ver também Tema 1.295 (já julgado: abusiva a limitação de sessões).",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "c032aed52cc32519ac0097f190592ff94bcc562d"
+ },
+ "Controvérsia 826": {
+  "materia": "Liquidação prévia no cumprimento de sentença coletiva",
+  "area": "Execução e coletivas",
+  "alcance": "Sem suspensão (controvérsia não afetada)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "IAC 18": {
+  "materia": "Brumadinho: termo de compromisso Vale/DPMG",
+  "area": "Outros",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "7976212c546b9bdc84b8670c99d7b58be7ac579d"
+ },
+ "ProRQF 1478": {
+  "materia": "Condomínio: honorários contratuais na cobrança de cotas",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "Relevância de questão federal reconhecida (ProRQF 4); suspensão com base no art. 1.035-A, § 7º, do CPC.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "2c6f76a16085c669158b0034223a00eab09ce396"
+ },
+ "Tema 298": {
+  "materia": "Planos econômicos (poupança): legitimidade do banco",
+  "area": "Execução e coletivas",
+  "alcance": "Sem informação na base",
+  "observacoes": "Sobrestado na base, sem texto de suspensão; a suspensão desses casos vem dos temas do STF (conferir no STF).",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Tema 299": {
+  "materia": "Planos econômicos (poupança): legitimidade do banco",
+  "area": "Execução e coletivas",
+  "alcance": "Sem informação na base",
+  "observacoes": "Idem Tema 298.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Tema 300": {
+  "materia": "Planos econômicos (poupança): prescrição",
+  "area": "Execução e coletivas",
+  "alcance": "Sem informação na base",
+  "observacoes": "Idem Tema 298.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Tema 301": {
+  "materia": "Planos econômicos (poupança): índices",
+  "area": "Execução e coletivas",
+  "alcance": "Sem informação na base",
+  "observacoes": "Idem Tema 298.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Tema 302": {
+  "materia": "Planos econômicos (poupança): índices",
+  "area": "Execução e coletivas",
+  "alcance": "Sem informação na base",
+  "observacoes": "Idem Tema 298.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Tema 929": {
+  "materia": "Repetição em dobro (art. 42, p. ún., CDC)",
+  "area": "Bancário e consumo",
+  "alcance": "Já julgado: aplicar a tese",
+  "observacoes": "Na base de 23/10/2026: \"Mérito Julgado\", aguardando acórdão. Acórdão publicado em 03/11/2026 (REsp 1.963.770/CE). A suspensão já estava restrita a processos com REsp ou AREsp.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "a137426de5b2c87efd57e804072fd3b218584707"
+ },
+ "Tema 954": {
+  "materia": "Telefonia fixa: troca de plano sem pedido e dano moral",
+  "area": "Bancário e consumo",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "Afetação de 2016 ratificou a suspensão de processos análogos em todo o território nacional; hoje na Corte Especial.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "1c55a23deceb8e876a50f56f271010a79489006f"
+ },
+ "Tema 978": {
+  "materia": "Usina Hidrelétrica Rio Manso: prescrição",
+  "area": "Outros",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "133dec7bdfe0087a1aaf3aabb633f195d0be23b4"
+ },
+ "Tema 1033": {
+  "materia": "Prescrição do cumprimento de sentença coletiva (protesto)",
+  "area": "Execução e coletivas",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "c5cbe184a25567e324f30b40c7b7ed1e99f98518"
+ },
+ "Tema 1039": {
+  "materia": "Seguro habitacional (SFH): termo inicial da prescrição",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "Em julgamento na Corte Especial; julgamento retomado em 07/10/2026, sem tese na base de 23/10/2026.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "83942ced0b30dff01b7ec3303020cd924f1dd8bd"
+ },
+ "Tema 1116": {
+  "materia": "Consignado firmado por analfabeto (a rogo + 2 testemunhas)",
+  "area": "Bancário e consumo",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "9d05f57e4202b6e850993518ec2d1d885193931b"
+ },
+ "Tema 1180": {
+  "materia": "Termo inicial do prazo: intimação eletrônica x DJe",
+  "area": "Processo civil",
+  "alcance": "Sem informação na base",
+  "observacoes": "Em julgamento; afeta certidões de prazo e trânsito.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Tema 1181": {
+  "materia": "Honorários de defensor dativo e coisa julgada",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "8cacb71baee5ac83de2b5d38117319261b3c5040"
+ },
+ "Tema 1183": {
+  "materia": "Rateio de associação de moradores e penhora do bem de família",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Texto ambíguo: conferir",
+  "observacoes": "Texto da base: \"suspensão dos processos pendentes perante o Tribunal de origem\" – não deixa claro se alcança o 1º grau.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "7a876f73c51f63b8a893b7a1474e1af1f965c670"
+ },
+ "Tema 1242": {
+  "materia": "Legitimidade da parte e do advogado para recorrer de honorários",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "5c36ea224761145052fd986da3ff6ac28e959d74"
+ },
+ "Tema 1243": {
+  "materia": "Preferência do crédito tributário em execução de terceiro",
+  "area": "Execução e coletivas",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "608c4e1a6dbefb02310e1909ec389800d8042e4d"
+ },
+ "Tema 1254": {
+  "materia": "Prescrição para habilitação de herdeiros",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "7e1c1297f1cc7a7a6ed0bb9f531b8d4a343ccdcf"
+ },
+ "Tema 1264": {
+  "materia": "Dívida prescrita em plataformas de negociação (Serasa Limpa Nome etc.)",
+  "area": "Bancário e consumo",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "Despacho de 24/06/2024: suspensão \"sem exceção\" no 1º e 2º graus. Em julgamento na Segunda Seção.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "620326246f4d9fd95e3b9e108ee6e2fbfb8b50d3"
+ },
+ "Tema 1266": {
+  "materia": "Penhora de imóvel alienado fiduciariamente por dívida condominial",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Sem suspensão",
+  "observacoes": "Suspensão expressamente afastada; matéria de execução.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "92a97d6da008f2c8f886160ab2d739b156ed81e9"
+ },
+ "Tema 1271": {
+  "materia": "Nulidade por não realização da audiência do art. 334",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "Em julgamento na Corte Especial.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "96c29c2ccceb0818d11260719d8dde6a3cd57d35"
+ },
+ "Tema 1285": {
+  "materia": "Impenhorabilidade de até 40 salários mínimos",
+  "area": "Execução e coletivas",
+  "alcance": "Já julgado: aplicar a tese",
+  "observacoes": "Mérito julgado, acórdão pendente na base.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "1eeffd94c99a80acffd2c4a739225f48aa8a4f1b"
+ },
+ "Tema 1289": {
+  "materia": "Ex-jogadores de futebol: uso indevido de imagem",
+  "area": "Outros",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "bd349190b623458409ba23f6eee4003274bd601f"
+ },
+ "Tema 1310": {
+  "materia": "Alimentos complementares: litisconsórcio entre avós",
+  "area": "Outros",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "Matéria de família.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "4fc159e5800f7e4f870a353fc49c13fdf32ffad7"
+ },
+ "Tema 1314": {
+  "materia": "Plano de saúde: carência em urgência/emergência após 24h",
+  "area": "Saúde suplementar",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "f2ae36cb52959bb5535764ae829cdce44a211033"
+ },
+ "Tema 1321": {
+  "materia": "Prescrição/decadência contra pessoa com deficiência (pós-Lei 13.146/2015)",
+  "area": "Outros",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "Suspensão estendida ao REsp 2.259.466/GO (\"ou de decadência legal\").",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "52751a92d8f0c7b0ea2b960426ea230f1cafa498"
+ },
+ "Tema 1330": {
+  "materia": "Vaga de garagem com matrícula própria: bem de família",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "Apenas REsp/AREsp, nos termos expressos da ordem.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "02782ecab6a951b892c8eb72747e230fd89e4240"
+ },
+ "Tema 1340": {
+  "materia": "Plano de saúde: cláusula que veda home care",
+  "area": "Saúde suplementar",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "e857508f0d2a6b84301d6a6d6f2254cdbba94d7c"
+ },
+ "Tema 1343": {
+  "materia": "Rotulagem: advertência sobre glúten",
+  "area": "Bancário e consumo",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "fd160a3f5cce222c4e7dea1a41a5cee45dd47b10"
+ },
+ "Tema 1345": {
+  "materia": "Validade de citação por WhatsApp/redes sociais",
+  "area": "Processo civil",
+  "alcance": "Sem suspensão",
+  "observacoes": "Sem suspensão; atenção nas citações eletrônicas até a tese.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "7ec86a50e8f6fcf3f0fb405b5a856055fafb858b"
+ },
+ "Tema 1348": {
+  "materia": "Rescisão de compra de imóvel com alienação fiduciária (sem mora)",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "34c2625a105903ce73e46b7b92fccf6fb4b04c15"
+ },
+ "Tema 1349": {
+  "materia": "Revisão do Tema 886: legitimidade por cotas condominiais",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "Possível revisão de tese firmada.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "be2e1a2fd129e527abc7f40c204fb97cc7bcdf97"
+ },
+ "Tema 1375": {
+  "materia": "Plano de saúde: reembolso fora da rede credenciada",
+  "area": "Saúde suplementar",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "b4194b9396b2f92c2ca0380bdfadc09ed699b764"
+ },
+ "Tema 1378": {
+  "materia": "Juros remuneratórios: taxa média do BACEN como critério de abusividade",
+  "area": "Bancário e consumo",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "ef0a652229f57d68ae9cb9d758bdfe28e12fd66e"
+ },
+ "Tema 1388": {
+  "materia": "Honorários por equidade e parâmetros do art. 85, § 8º-A",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "Afeta a fixação de honorários nas sentenças.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "cbe621215eebb5136458862eb3481244fc4c70ea"
+ },
+ "Tema 1396": {
+  "materia": "Interesse de agir: prévia tentativa extrajudicial em consumo",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "Dialoga com o Tema 1.198 (já julgado: emenda da inicial diante de indícios de litigância abusiva).",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "0636354b39f877c72a0026006cb65976ec5f23ff"
+ },
+ "Tema 1398": {
+  "materia": "Juros remuneratórios na execução da ACP de poupança (SP)",
+  "area": "Execução e coletivas",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "8deb554ce80d33b5a3b2c0d4456cb175bd5ee424"
+ },
+ "Tema 1404": {
+  "materia": "Bureau de crédito: comercialização de dados pessoais sem consentimento",
+  "area": "Bancário e consumo",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "e4507067cbac885685f24b45d9b6b3f91713dbbf"
+ },
+ "Tema 1409": {
+  "materia": "Penhora de faturamento em execução civil",
+  "area": "Execução e coletivas",
+  "alcance": "Sem suspensão",
+  "observacoes": "Suspensão expressamente afastada.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "cdd714174d38db73838364d569bdf834fe7628dc"
+ },
+ "Tema 1414": {
+  "materia": "Cartão de crédito consignado (RMC): validade, decadência/prescrição",
+  "area": "Bancário e consumo",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "Suspensão de todos os processos referendada pela Segunda Seção em 08/04/2026, abrangendo também o Tema 1.328 (dano moral presumido na RMC).",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "52aa957a50ac058a933162a75334f4ad50727dc9"
+ },
+ "Tema 1420": {
+  "materia": "Compra de imóvel com alienação fiduciária não registrada: Lei 9.514 x CDC",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "48be0116eec10cb41254b129ef389ee9cdfb03b5"
+ },
+ "Tema 1423": {
+  "materia": "REsp contra decisão monocrática de 2º grau",
+  "area": "Processo civil",
+  "alcance": "Sem suspensão",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "a9ea12eb044928c2412d66ccbe813ee720744858"
+ },
+ "Tema 1435": {
+  "materia": "Dano moral presumido por desconto indevido em benefício do INSS",
+  "area": "Bancário e consumo",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "3530a30e5178766e83c928aaf41fb9a35e65410a"
+ },
+ "Tema 1442": {
+  "materia": "Astreintes vencidas: possibilidade de redução",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "3daa5bbb03084b6e854ee40efa2a3b0c795d70de"
+ },
+ "Tema 1443": {
+  "materia": "Condomínio: locação de curta temporada por aplicativo",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "Suspensão nacional noticiada pelo STJ em 17/09/2026.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "e7387eed60569d9ca2c0ecb28122d7ccee1a62ec"
+ },
+ "Tema 1448": {
+  "materia": "Astreintes: parâmetros de razoabilidade e valor acumulado",
+  "area": "Processo civil",
+  "alcance": "Sem suspensão",
+  "observacoes": "Suspensão expressamente afastada.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "84fac1011bb16d480e2e4fecd1f611b4e334de3e"
+ },
+ "Tema 1449": {
+  "materia": "Chamamento ao processo no cumprimento de sentença coletiva",
+  "area": "Execução e coletivas",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "613d02a91971e94957cd5da972bd383f55a8d9e2"
+ },
+ "Tema 1450": {
+  "materia": "Deferimento tácito da gratuidade da justiça",
+  "area": "Processo civil",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "19305404157e20041df93dcd14fab3dd1a0cc656"
+ },
+ "Tema 1451": {
+  "materia": "Foro do cumprimento de sentença coletiva",
+  "area": "Execução e coletivas",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "73dbf5e2dc74763f16ec6dfcc87aef9adf19e444"
+ },
+ "Tema 1452": {
+  "materia": "Efeitos retroativos da gratuidade da justiça",
+  "area": "Processo civil",
+  "alcance": "Sem suspensão",
+  "observacoes": "Suspensão expressamente afastada.",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "fc690f7e2e94394ea80db13238db9f0ca561dc4f"
+ },
+ "Tema 1453": {
+  "materia": "Honorários na ação de baixa de hipoteca",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "a1d0adfb7ee1c54f046af4cef2f1f57fd2b7ec6f"
+ },
+ "Tema 1463": {
+  "materia": "Plano de saúde: musicoterapia para TEA",
+  "area": "Saúde suplementar",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "3daa5bbb03084b6e854ee40efa2a3b0c795d70de"
+ },
+ "Tema 1464": {
+  "materia": "Distrato de lote/terreno: percentual de retenção",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "0f5874de3ea90dddae58f9fecb356050b8147265"
+ },
+ "Tema 1465": {
+  "materia": "Distrato de imóvel anterior à Lei 13.786/2018: retenção",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "0f5874de3ea90dddae58f9fecb356050b8147265"
+ },
+ "Tema 1466": {
+  "materia": "Distrato com patrimônio de afetação (Lei do Distrato)",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "0f5874de3ea90dddae58f9fecb356050b8147265"
+ },
+ "Tema 1467": {
+  "materia": "Plano de saúde: demora na autorização equivale a recusa (Tema 1.365)?",
+  "area": "Saúde suplementar",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "4f542930959f9dd37970e108e209efb62369aeb7"
+ },
+ "Tema 1471": {
+  "materia": "Previdência privada fechada: prescrição na revisão de empréstimo",
+  "area": "Bancário e consumo",
+  "alcance": "Suspende o 1º grau",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "9087b0067b595773ce8bd0ae329cd91dbd269b60"
+ },
+ "Tema 1474": {
+  "materia": "Capitalização diária: necessidade de informar a taxa diária",
+  "area": "Bancário e consumo",
+  "alcance": "Só REsp/AREsp (2º grau e STJ)",
+  "observacoes": "",
+  "conferido_em": "2026-11-06",
+  "ordem_sha1": "5ef323e536b61b9b37018fa69aa1c3c844162f25"
+ }
+}

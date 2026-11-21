@@ -1,0 +1,20 @@
+{
+ "atualizado_em": "2026-11-16T11:41:14+00:00",
+ "base_stj": "2026-10-23",
+ "contagens": {
+  "total": 69,
+  "por_grupo": {
+   "Sem suspensão ou sem ordem": 22,
+   "Suspende o 1º grau": 10,
+   "Só REsp/AREsp": 34,
+   "Já julgado": 2,
+   "A conferir": 1
+  }
+ },
+ "classificacao_conferida_em": "2026-11-06",
+ "ultima_tentativa": {
+  "em": "2026-11-16T11:41:15+00:00",
+  "status": "ok",
+  "detalhe": "0 mudança(s)"
+ }
+}
