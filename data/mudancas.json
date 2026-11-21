@@ -1,5 +1,103 @@
 [
  {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Controvérsia 676",
+  "tipo": "situacao",
+  "texto": "Situação: Pendente → Em Afetação.",
+  "materia": "Alienação fiduciária: notificação da mora por e-mail"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Precedente 1478",
+  "tipo": "novo",
+  "texto": "Entrou na lista (Relevância reconhecida).",
+  "materia": "Saber se os honorários advocatícios contratuais despendidos pelo condomínio para o ajuizamento de ação judicial destinad"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Precedente 1484",
+  "tipo": "novo",
+  "texto": "Entrou na lista (Relevância reconhecida).",
+  "materia": "Definir se beneficia as pessoas jurídicas a impenhorabilidade da quantia de até 40 (quarenta) salários mínimos depositad"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Tema 978",
+  "tipo": "situacao",
+  "texto": "Situação: Afetado → Em Julgamento.",
+  "materia": "Usina Hidrelétrica Rio Manso: prescrição"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Tema 1180",
+  "tipo": "situacao",
+  "texto": "Situação: Em Julgamento → Mérito Julgado.",
+  "materia": "Termo inicial do prazo: intimação eletrônica x DJe"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Tema 1243",
+  "tipo": "situacao",
+  "texto": "Situação: Afetado → Mérito Julgado.",
+  "materia": "Preferência do crédito tributário em execução de terceiro"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Tema 1404",
+  "tipo": "situacao",
+  "texto": "Situação: Afetado → Em Julgamento.",
+  "materia": "Bureau de crédito: comercialização de dados pessoais sem consentimento"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Controvérsia 651",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: Cancelada.",
+  "materia": "Bancário: CDI como índice de correção"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Controvérsia 672",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: Cancelada.",
+  "materia": "Consignado: Tema 1.061 x depósito do valor na conta"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Controvérsia 716",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: Vinculada a Tema.",
+  "materia": "Impenhorabilidade da poupança de pessoa jurídica"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Controvérsia 809",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: Cancelada.",
+  "materia": "Plano de saúde: terapia multidisciplinar/ABA para TEA"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "ProRQF 1478",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: não consta mais da base.",
+  "materia": "Condomínio: honorários contratuais na cobrança de cotas"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Tema 929",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: Acórdão Publicado. Tese: (i) A restituição em dobro do indébito (art.42, parágrafo único, do CDC) independe da natureza do elemento volitivo do fornecedor que realizou a cobrança indevida, sendo cabível quando a referida cobrança consubstanciar conduta contrária à boa-fé objetiva.(i. a) A demonstração da",
+  "materia": "Repetição em dobro (art. 42, p. ún., CDC)"
+ },
+ {
+  "data": "2026-11-21T07:13:19+00:00",
+  "id": "Tema 1285",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: Acórdão Publicado. Tese: I - É impenhorável a quantia de até 40 (quarenta) salários-mínimos:a) depositada em caderneta de poupança, ainda que esta seja usada para depósitos e pagamentos, como se fosse uma conta corrente;b) mantida em papel-moeda, depositada em conta corrente, aplicada em fundo de investi",
+  "materia": "Impenhorabilidade de até 40 salários mínimos"
+ },
+ {
   "data": "2026-11-16T11:41:14+00:00",
   "id": "Base",
   "tipo": "base",
