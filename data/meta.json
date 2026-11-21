@@ -1,20 +1,19 @@
 {
- "atualizado_em": "2026-11-21T07:13:19+00:00",
+ "atualizado_em": "2026-11-21T07:19:45+00:00",
  "base_stj": "2026-11-20T17:18:21.684070",
  "contagens": {
   "total": 64,
   "por_grupo": {
-   "Sem suspensão ou sem ordem": 18,
+   "Sem suspensão ou sem ordem": 20,
    "Suspende o 1º grau": 10,
-   "A classificar": 2,
    "Só REsp/AREsp": 33,
    "A conferir": 1
   }
  },
- "classificacao_conferida_em": "2026-11-06",
+ "classificacao_conferida_em": "2026-11-21",
  "ultima_tentativa": {
-  "em": "2026-11-21T07:13:19+00:00",
+  "em": "2026-11-21T07:19:45+00:00",
   "status": "ok",
-  "detalhe": "14 mudança(s) · GitHub Actions"
+  "detalhe": "2 mudança(s) · Mac"
  }
 }

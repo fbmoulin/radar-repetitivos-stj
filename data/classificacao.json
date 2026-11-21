@@ -550,5 +550,21 @@
   "observacoes": "",
   "conferido_em": "2026-11-06",
   "ordem_sha1": "5ef323e536b61b9b37018fa69aa1c3c844162f25"
+ },
+ "Precedente 1478": {
+  "materia": "Condomínio: honorários contratuais da cobrança de cotas imputados ao condômino",
+  "area": "Imobiliário e condomínio",
+  "alcance": "Sem suspensão",
+  "observacoes": "Relevância reconhecida, sem ordem de suspensão no STJ. Classificação aprovada pelo juiz em 21/11/2026; reclassificar se houver afetação com ordem.",
+  "conferido_em": "2026-11-21",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+ },
+ "Precedente 1484": {
+  "materia": "Execução: impenhorabilidade de 40 salários mínimos em poupança para pessoa jurídica",
+  "area": "Execução e coletivas",
+  "alcance": "Sem suspensão",
+  "observacoes": "Relevância reconhecida, sem ordem de suspensão no STJ. Classificação aprovada pelo juiz em 21/11/2026; reclassificar se houver afetação com ordem.",
+  "conferido_em": "2026-11-21",
+  "ordem_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
  }
 }
