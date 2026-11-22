@@ -1,5 +1,19 @@
 [
  {
+  "data": "2026-11-22T09:21:08+00:00",
+  "id": "Controvérsia 809",
+  "tipo": "novo",
+  "texto": "Entrou na lista (Pendente).",
+  "materia": "Plano de saúde: terapia multidisciplinar/ABA para TEA"
+ },
+ {
+  "data": "2026-11-22T09:21:08+00:00",
+  "id": "Controvérsia 676",
+  "tipo": "saiu",
+  "texto": "Saiu da lista de pendentes: Vinculada a Tema.",
+  "materia": "Alienação fiduciária: notificação da mora por e-mail"
+ },
+ {
   "data": "2026-11-21T07:19:45+00:00",
   "id": "Precedente 1478",
   "tipo": "alcance",
