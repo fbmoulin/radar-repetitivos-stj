@@ -1,5 +1,19 @@
 [
  {
+  "data": "2026-11-27T09:23:00+00:00",
+  "id": "Tema 1242",
+  "tipo": "situacao",
+  "texto": "Situação: Afetado → Em Julgamento.",
+  "materia": "Legitimidade da parte e do advogado para recorrer de honorários"
+ },
+ {
+  "data": "2026-11-27T09:23:00+00:00",
+  "id": "Tema 1423",
+  "tipo": "situacao",
+  "texto": "Situação: Afetado → Mérito Julgado.",
+  "materia": "REsp contra decisão monocrática de 2º grau"
+ },
+ {
   "data": "2026-11-22T09:21:08+00:00",
   "id": "Controvérsia 809",
   "tipo": "novo",
