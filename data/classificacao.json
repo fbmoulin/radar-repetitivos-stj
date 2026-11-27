@@ -211,8 +211,8 @@
   "materia": "Legitimidade da parte e do advogado para recorrer de honorários",
   "area": "Processo civil",
   "alcance": "Só REsp/AREsp (2º grau e STJ)",
-  "observacoes": "",
-  "conferido_em": "2026-11-06",
+  "observacoes": "Em julgamento na Corte Especial desde 27/11/2026 (antes: afetado). A suspensão segue restrita a REsp e AREsp no 2º grau e no STJ; o 1º grau julga normalmente. Conferido pelo juiz em 27/11/2026.",
+  "conferido_em": "2026-11-27",
   "ordem_sha1": "5c36ea224761145052fd986da3ff6ac28e959d74"
  },
  "Tema 1243": {
@@ -418,9 +418,9 @@
  "Tema 1423": {
   "materia": "REsp contra decisão monocrática de 2º grau",
   "area": "Processo civil",
-  "alcance": "Sem suspensão",
-  "observacoes": "",
-  "conferido_em": "2026-11-06",
+  "alcance": "Já julgado: aplicar a tese",
+  "observacoes": "Mérito julgado pela Corte Especial (situação no STJ em 27/11/2026). Aplicar a tese depois de conferir a publicação do acórdão. Reclassificação aprovada pelo juiz em 27/11/2026.",
+  "conferido_em": "2026-11-27",
   "ordem_sha1": "a9ea12eb044928c2412d66ccbe813ee720744858"
  },
  "Tema 1435": {
